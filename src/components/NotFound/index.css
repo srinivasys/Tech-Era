@@ -1,0 +1,23 @@
+.not-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.icon {
+  width: 400px;
+  height: 300px;
+}
+
+.not-head {
+  color: #475569;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.not-des {
+  color: #64748b;
+  font-size: 25px;
+}

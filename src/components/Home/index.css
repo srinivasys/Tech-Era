@@ -1,0 +1,82 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.courses-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-right: 100px;
+}
+
+.image {
+  height: 100px;
+  width: 80px;
+}
+
+.course-name {
+  color: #1e293b;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fail-img {
+  width: 400px;
+  height: 300px;
+}
+
+.fail-head {
+  color: #475569;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fail-des {
+  color: #64748b;
+  font-size: 22px;
+}
+
+.retry-btn {
+  color: #ffffff;
+  background-color: #4656a1;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
